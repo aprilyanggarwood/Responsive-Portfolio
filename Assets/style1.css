@@ -111,6 +111,10 @@ footer {
   margin-left: -10px;
 }
 
+#form {
+  margin-left: 10px;
+}
+
 /* the text color of " Submit" will change from white to gray, when the curser hover the button.  */
 input[type="submit"]:hover {
   color: gray;
@@ -119,4 +123,9 @@ input[type="submit"]:hover {
 /* overrided the border-radius by setting it up as 0 for the form-group*/
 .form-control {
   border-radius: 0rem;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
 }
