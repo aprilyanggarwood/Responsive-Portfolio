@@ -10,9 +10,9 @@ This homework practice is to create an application with responsive layout design
 
 - Each page contains three sections: Navbar, Main, and Footer. Container is located in the main section which took two thirds width of the screen.
 
-  - index.html is the About Me page. This page contains my name and the linked manual "Contact Portfolio About" in the Navbar. My picture and my bio are located in the container area. Footer is fixed to the bottom of the page.
+  - index.html is the About Me page. This page contains my name and the linked manual "Contact Portfolio About" in the Navbar. My picture and my bio are located in the container area. The contact link of my [Linkedin](https://www.linkedin.com/in/ying-april-yang-a9bb8720/) and [GitHub](https://github.com/aprilyanggarwood?tab=repositories) are added in the last paragraph of my bio.Footer is fixed to the bottom of the page.
 
-  - portfolio.html is the Portfolio page. This page contains the consistent Navbar and Footer design from index.html file, and five of my personal pictures which took the entire width of the container area in three rows and two columns.
+  - portfolio.html is the Portfolio page. This page contains the consistent Navbar and Footer design from index.html file, and the five images in the container area are into the responsive behavior when the width of screen runs to a different screen size. The columns of images in the container will be changing from two columns to one column when the width of screen size changes from large to medium.
 
   - contact.html is the Contact page. This page contains the consistent Navbar and Footer design from index.html file as well as a form-group: Name form, Email form, and Message form which took five sixths of the width of the container area in one column. A Submit button is located under the Message form.
 

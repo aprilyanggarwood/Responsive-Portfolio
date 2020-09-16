@@ -111,6 +111,7 @@ footer {
   margin-left: -10px;
 }
 
+/* only the three forms in the form element moved to left 10px */
 #form {
   margin-left: 10px;
 }
@@ -125,7 +126,13 @@ input[type="submit"]:hover {
   border-radius: 0rem;
 }
 
+/* responsive images */
 .img-fluid {
   width: 100%;
   height: auto;
+}
+
+.image {
+  width: 330px;
+  object-fit: cover;
 }
