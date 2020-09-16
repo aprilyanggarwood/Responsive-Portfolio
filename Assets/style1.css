@@ -1,0 +1,122 @@
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* used margin to give an entent space from the bottom of container to the footer*/
+main {
+  margin-bottom: 50px;
+}
+
+/* used paddings to give an extent space for the top and bottom of my name */
+/* font-family is from Google Fonts  */
+/* deleted the margin space from the bottom of h2 */
+h2 {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  background-color: rgb(74, 170, 165);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+/* copied link of font-family from Google font  */
+/* used margins to give an extent space for the top and the bottom of h2 */
+
+h1 {
+  color: rgb(74, 170, 165);
+  font-family: "Libre Baskerville", serif;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* deleted the margin space from the bottom of the line */
+.hr {
+  margin-bottom: 0px;
+}
+
+/* deleted the margin space from the top and bottom of paragraph1 */
+#p1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* image is wrapped up by paragraph1 by using float declaration */
+/* floatted the image to the left of the container and gave the margin space on the right of image */
+img {
+  float: left;
+  margin-right: 20px;
+}
+
+/* gave the background color of the container as white */
+/* used margins and paddings to extend and adjusted the space for the content of container  */
+.aboutmebackground {
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+
+/* embeded the background image for main area */
+.background {
+  background: url("./workimage/backgroundimg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* built a sticked footer for each of pages and centered the text in the footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* styling the line which is came with the footer */
+.linecolor {
+  background-color: rgb(74, 170, 165);
+  border-width: 6px;
+  margin: 0;
+  padding: 0;
+}
+
+/* gave the footer a stlying*/
+.footerp {
+  padding: 5px 0;
+  color: rgb(107, 114, 121);
+  background-color: rgb(102, 102, 102);
+  font-size: small;
+}
+
+/* used margins to give an extent space for the top and bottom of p2 */
+.p2 {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+/* the modle of submit button is copied from Bootstrap, but overrided the border-radius by setting it up as 0 and moved its position to a little bit left by using negtive number with margin */
+/* used padding and font-size to adjust the background space around the value " Submit "  */
+.btn {
+  background-color: rgb(74, 170, 165);
+  color: white;
+  border-radius: 0rem;
+  padding: 0.6rem 1.3rem;
+  font-size: 0.8rem;
+  margin-left: -10px;
+}
+
+/* the text color of " Submit" will change from white to gray, when the curser hover the button.  */
+input[type="submit"]:hover {
+  color: gray;
+}
+
+/* overrided the border-radius by setting it up as 0 for the form-group*/
+.form-control {
+  border-radius: 0rem;
+}

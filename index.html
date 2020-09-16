@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- the link is copied from Bootstrap CSS was to automaticly build a responsive screen when the viewport widths of screen became xm:400px, md:768px, and lg:922px.  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- extention CSS stylesheet -->
+    <link rel="stylesheet" href="./Assets/style1.css" media="screen">
+<!-- copied and embeded the link of font-family from Google Fonts embaded the font-famlily from Google Fonts for h1 and h2   -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <title>April Yang</title>
+
+
+  </head>
+<body>
+
+ <!-- nav bar model copied from Bootstrap. Edited and pushed unlisted manual to the right of the screen. -->
+  <!-- added html file in href to make the nav bar linkes to work well -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">
+    <h2>April Yang</h2>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Portfolio.html">Portfolio</a>
+      </li>
+      <!-- "About" is be actived when user is in this About page -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+    
+    </ul>
+  </div>
+</nav>
+   
+<main>
+  <!-- embeded the image as the background of main content   -->
+<div class="background">
+  <!-- Responsive layout: when the width of screen run to biger or smaller, the width of container was not changed by this behavior -->
+<!-- added "container" to wrap up the rows and cols -->
+
+    <div class="container">
+      <!-- only one row in the container -->
+       <div class="row">
+   <!-- the container took the two third width of the screen -->
+          <article class="col-md-8">
+
+      <div class="aboutmebackground">
+        <!-- the first row of container -->
+        <div class="row">
+          <!-- the content took the entire width of container   -->
+          <header class="col-12">
+            <h1>About Me</h1>
+            <hr />
+          </header>
+        </div>
+        <!-- the second row of container -->
+        <div class="row">
+          <!-- the content took the entire width of container   -->
+          <section class="col-12">
+            
+              <img
+                src="./Assets/workimage/april.jpg"
+                width="220"
+                height="300"
+                alt="April Yang"/> 
+
+              <p id=p1>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis assumenda totam quia ab dicta, vel tempora dolor,
+              molestiae qui atque quam consectetur cumque sequi consequuntur
+              aperiam esse sed minus quasi! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Beatae eaque nobis quia veritatis
+              cum, iste impedit sit distinctio! Reprehenderit corporis dolore ut
+              nisi voluptatem, necessitatibus sint. Reiciendis libero sequi
+              eligendi!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam aliquid ipsum sapiente debitis exercitationem ipsa voluptas pariatur, facere voluptatem et magni animi doloremque saepe voluptatibus molestias, aperiam ea? Quidem!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              distinctio perspiciatis ratione? Qui, cum! Doloribus dolores qui
+              non corporis facilis nemo praesentium molestias architecto numquam
+              odit. Qui fugit nobis culpa!
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+</main>
+<!-- fixed footer , sticked on the bottom of screen when page scroolled up or down. -->
+     <footer>
+     <hr class="linecolor" / >
+       <div class="footerp">
+        <p class=p2>&copy; Copyright</p>
+        </div>
+    </footer>
+
+  </body>
+</html>
