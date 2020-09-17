@@ -45,8 +45,10 @@ h1 {
 /* image is wrapped up by paragraph1 by using float declaration */
 /* floatted the image to the left of the container and gave the margin space on the right of image */
 
-.aboutmeimg {
-  object-fit: cover;
+.aprilimg {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 /* gave the background color of the container as white */
