@@ -2,7 +2,7 @@
 
 This homework practice is to create an application with responsive layout design for rendering the solution well on a variety of devices or screen sizes. Screenshots referencing an existing application are provided in the Assets/Images folder.
 
-## Summary of this application
+## Summary of this application from [HW2](https://aprilyanggarwood.github.io/UW-Coding-Boot-Camp---HW2/)
 
 - This application is my portfolio which comes with three pages by applying the reponsive layout with Bootstrap CSS framework, and each page is effectively linked and active.
 
@@ -16,6 +16,6 @@ This homework practice is to create an application with responsive layout design
 
   - contact.html is the Contact page. This page contains the consistent Navbar and Footer design from index.html file as well as a form-group: Name form, Email form, and Message form which took five sixths of the width of the container area in one column. A Submit button is located under the Message form.
 
-- All the meanwhile, I utilized the Inspection Tool to modify and adjust the declarations for each selector applied to the HTML file. The CSS file is functionally working well to build each HTML file.
+- All the meanwhile, I utilized the Inspect Tool to modify and adjust the declarations for each selector applied to the HTML file. The CSS file is functionally working well to build each HTML file.
 
 Finally, my practice work looks similar to the reference pictures which we have in the Image folder.
