@@ -42,13 +42,35 @@ h1 {
   margin-bottom: 0;
 }
 
-/* image is wrapped up by paragraph1 by using float declaration */
-/* floatted the image to the left of the container and gave the margin space on the right of image */
+/* image is wrapped up by paragraph1 by using float property */
+/* floatted the image to the left of the container and gave the margin space for the right and bottom of image */
 
 .aprilimg {
   float: left;
   margin-right: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  width: 26%;
+  height: auto;
+}
+
+/* used media queries with the max-width values for image "aprilimg" to be a reponsive image when the width of screen in large,medium,and small */
+/*  */
+@media (max-width: 992px) {
+  .aprilimg {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .aprilimg {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .aprilimg {
+    width: 50% !important;
+  }
 }
 
 /* gave the background color of the container as white */
