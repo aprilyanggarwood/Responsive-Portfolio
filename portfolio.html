@@ -3,120 +3,258 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <!-- the link is copied from Bootstrap CSS was to automaticly build a responsive screen when the viewport widths of screen became xm:400px, md:768px, and lg:922px..  -->
+    <!-- the link is copied from Bootstrap CSS was to automaticly build a responsive screen when the viewport widths of screen became xm:400px, md:768px, and lg:922px..  -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
     <!-- extention css stylesheet -->
-    <link rel="stylesheet" href="./Assets/style1.css" media="screen">
-<!-- embaded google font-famlily for h1 and h2   -->
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/style1.css" media="screen" />
+    <!-- embaded google font-famlily for h1 and h2   -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>April Yang</title>
   </head>
 
   <body>
-
     <!-- nav bar model copied from Bootstrap. Edited and pushed unlisted manual to the right of the screen. -->
-  <!-- added html file in href to make the nav bar linkes to work well -->
+    <!-- added html file in href to make the nav bar linkes to work well -->
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <h2>April Yang</h2>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"
+              >Contact <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <!-- "Portfolio" is be actived when user is in this Portfolio page -->
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <!-- embeded the image as the background of main content   -->
+      <div class="background">
+        <!-- Responsive layout: when the width of screen run to biger or smaller, the width of container was not changed by this behavior -->
+        <!-- added "container" to wrap up the rows and cols -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <h2>April Yang</h2>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-      </li>
-      <!-- "Portfolio" is be actived when user is in this Portfolio page -->
-      <li class="nav-item active">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">About</a>
-      </li>
-    
-    </ul>
-  </div>
-</nav>
-<main>
-  <!-- embeded the image as the background of main content   -->
-<div class="background">
-<!-- Responsive layout: when the width of screen run to biger or smaller, the width of container was not changed by this behavior -->
-<!-- added "container" to wrap up the rows and cols -->
-
-    <div class="container">
-       <!-- only one row in the container -->
-       <div class="row">
-<!-- the container took the two third width of the screen -->
-          <div class="col-md-8 clo-lg-8">
-
-      <div class="aboutmebackground">
-<!-- the first row of container -->
-         <div class="row">
-<!-- the content took the entire width of container   -->
-          <div class="col-md-12 clo-lg-12">
-            <h1>Portfolio</h1>
-            <hr class=hr />
-          </div>
-        </div>
-        
-<!-- the second row of container -->
- <div class="row">
-   <!-- the columns of images in the container will be changing from two columns to one column when the width of screen size changes from large to medium   -->
-    <!-- used margin top to give an entent space on the top of each image -->
-   <div class="col-md-12 col-lg-6 mt-4">
-               <img class="img-fluid float-left image" src="./Assets/workimage/Portfolioimage.jpeg" class="5image"" alt="">
-            </div>
-            <div class="col-md-12 col-lg-6 mt-4">
-            
-              <img class="img-fluid float-left image" src="./Assets/workimage/Portfolioimage.jpeg" alt="">
-            </div>
-          </div>
-          <!-- the third row of container -->
+        <div class="container">
+          <!-- only one row in the container -->
           <div class="row">
-              <!-- the columns of images in the container will be changing from two columns to one column when the width of screen size changes from large to medium   -->
-    <!-- used margin top to give an entent space on the top of each image -->
-            <div class="col-md-12 col-lg-6 mt-4">
-              <img class="img-fluid float-left image" src="./Assets/workimage/Portfolioimage.jpeg" alt="">
+            <!-- the container took the two third width of the screen -->
+            <div class="col-md-10">
+              <div class="aboutmebackground">
+                <!-- the first row of container -->
+                <div class="row">
+                  <!-- the content took the entire width of container   -->
+                  <div class="col-md-12">
+                    <h1>Portfolio</h1>
+                    <hr class="hr" />
+                  </div>
+                </div>
+
+                <!-- the second row of container -->
+
+                <!-- the columns of images in the container will be changing from two columns to one column when the width of screen size changes from large to medium   -->
+                <!-- used margin top to give an entent space on the top of each image -->
+
+                <!-- <div class="row row-cols-1 row-cols-md-2"> -->
+                <!-- project- weather board  -->
+                <div class="col mb-3 mt-3">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        target="_blank"
+                        href="https://github.com/aprilyanggarwood/Weather-Dashboard/"
+                      >
+                        Weather-Dashboard</a
+                      ><span class="githubicon"
+                        ><i class="fa fa-github" aria-hidden="true"></i
+                      ></span>
+                      <a
+                        target="_blank"
+                        href="https://aprilyanggarwood.github.io/Weather-Dashboard/"
+                        ><img
+                          class="img-fluid image"
+                          class="card-img-top"
+                          src="Assets/gifs/WeatherDashboard.gif"
+                          alt=""
+                      /></a>
+                    </h5>
+                  </div>
+                </div>
+                <!-- project- Trip Planner -->
+                <div class="col mb-3 mt-3">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        target="_blank"
+                        href="https://github.com/girmaD/Trip-Planner/"
+                      >
+                        Trip-Planner</a
+                      ><span class="githubicon"
+                        ><i class="fa fa-github" aria-hidden="true"></i
+                      ></span>
+
+                      <a
+                        target="_blank"
+                        href="https://girmaD.github.io/Trip-Planner/"
+                        ><img
+                          class="img-fluid image"
+                          class="card-img-top"
+                          src="Assets/gifs/TripPlanner.gif"
+                          alt=""
+                      /></a>
+                    </h5>
+                  </div>
+                </div>
+
+                <!-- project- Password Generator -->
+                <div class="col mb-3 mt-3">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        target="_blank"
+                        href="https://github.com/aprilyanggarwood/Password-Generator/"
+                      >
+                        Password-Generator</a
+                      ><span class="githubicon"
+                        ><i class="fa fa-github" aria-hidden="true"></i
+                      ></span>
+                      <a
+                        target="_blank"
+                        href="https://aprilyanggarwood.github.io/Passwrod-Generator/"
+                        ><img
+                          class="img-fluid image"
+                          class="card-img-top"
+                          src="Assets/gifs/PasswordGenerator.gif"
+                          alt=""
+                      /></a>
+                    </h5>
+                  </div>
+                </div>
+                <!-- Project  -->
+                <div class="col mb-3 mt-3">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        target="_blank"
+                        href="https://github.com/aprilyanggarwood/Weather-Dashboard/"
+                      >
+                        Weather-Dashboard</a
+                      ><span class="githubicon"
+                        ><i class="fa fa-github" aria-hidden="true"></i
+                      ></span>
+                      <a
+                        target="_blank"
+                        href="https://aprilyanggarwood.github.io/Weather-Dashboard/"
+                        ><img
+                          class="img-fluid image"
+                          class="card-img-top"
+                          src="Assets/gifs/WeatherDashboard.gif"
+                          alt=""
+                      /></a>
+                    </h5>
+                  </div>
+                </div>
+                <!-- </div> -->
+                <!-- <div class="row row-cols-1 row-cols-md-2 float-left"> -->
+                <!-- project -->
+                <div class="col mb-3 mt-3">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        target="_blank"
+                        href="https://github.com/aprilyanggarwood/Weather-Dashboard/"
+                      >
+                        Weather-Dashboard</a
+                      ><span class="githubicon"
+                        ><i class="fa fa-github" aria-hidden="true"></i
+                      ></span>
+                      <a
+                        target="_blank"
+                        href="https://aprilyanggarwood.github.io/Weather-Dashboard/"
+                        ><img
+                          class="img-fluid image"
+                          class="card-img-top"
+                          src="Assets/gifs/WeatherDashboard.gif"
+                          alt=""
+                      /></a>
+                    </h5>
+                  </div>
+                </div>
+
+                <!-- </div> -->
+                <!-- project  -->
+                <!-- <div class="row row-cols-1 row-cols-md-2"> -->
+                <div class="col mb-3 mt-3">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        target="_blank"
+                        href="https://github.com/aprilyanggarwood/Weather-Dashboard/"
+                      >
+                        Weather-Dashboard</a
+                      ><span class="githubicon"
+                        ><i class="fa fa-github" aria-hidden="true"></i
+                      ></span>
+                      <a
+                        target="_blank"
+                        href="https://aprilyanggarwood.github.io/Weather-Dashboard/"
+                        ><img
+                          class="img-fluid image"
+                          class="card-img-top"
+                          src="Assets/gifs/WeatherDashboard.gif"
+                          alt=""
+                      /></a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
-           <div class="col-md-12 col-lg-6 mt-4">
-              <img class="img-fluid float-left image" src="./Assets/workimage/Portfolioimage.jpeg"  alt="">
-            </div>
           </div>
-           <!-- the forth row of container -->
-          <div class="row">
-            <!-- the columns of images in the container will be changing from two columns to one column when the width of screen size changes from large to medium   -->
-    <!-- used margin top to give an entent space on the top of image -->
-            <div class="col-md-12 col-lg-6 mt-4 mb-4">
-              <img class="img-fluid float-left image" src="./Assets/workimage/Portfolioimage.jpeg"  alt="">
-            </div>
-          </div>
-          </div>
-          </div>
-        </div>
         </div>
       </div>
-    </div>
-    </div>
-</div>
-</main>
-<!-- fixed footer , sticked on the bottom of screen when page scroolled up or down. -->
-    <footer>
-     <hr class="linecolor" / >
-       <div class="footerp">
-        <p class=p2>&copy; Copyright 2020 April Yang</p>
-        </div>
-    </footer>
+    </main>
 
+    <!-- fixed footer , sticked on the bottom of screen when page scroolled up or down. -->
+    <footer>
+      <hr class="linecolor" / >
+      <div class="footerp">
+        <p class="p2">&copy; Copyright 2020 April Yang</p>
+      </div>
+    </footer>
   </body>
 </html>

@@ -153,10 +153,88 @@ input[type="submit"]:hover {
 /* responsive images */
 .img-fluid {
   width: 100%;
-  height: auto;
+  height: 180px;
 }
 
-.image {
-  width: 330px;
-  object-fit: cover;
+/* .image {
+  /* width: 330px; */
+  /* font-size: 80px; */
+  /* object-fit: cover; */
+  
+/* } */ */
+.card-title{
+color: rgb(74, 170, 165);
+font-family: "Libre Baskerville",
+  serif;
+text-align:center; 
+margin-bottom: 0;
+
+}
+
+.card{
+  padding-left: 10px;
+  padding-right:10px;
+  margin-bottom: 0;
+  
+  /* display: inline; */
+  /* display: inline-block; */
+  /* float: left;
+  width: 50%; */
+  /* padding: 5px; */
+  
+}
+
+.card-body {
+  padding: 5px;
+  border: solid;
+  border-color: gray;
+  border-radius: 10px;
+  float:left;
+  width:45%;
+  margin: 10px;
+  text-align:center;
+  
+  
+  /* font-size: 2000px; */
+  
+}
+
+/* .clearfix::after {
+  content: "";
+  clear: both;
+  
+} */
+
+.githubicon{
+font-size: 25px;
+margin-left: 5px;
+color: rgb(74, 170, 165);
+
+
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(74, 170, 165);
+}
+
+/* mouse over link */
+a:hover {
+  color:burlywood;
+}
+
+/* selected link */
+a:active {
+  color: lightcoral;
+}
+
+.demo{
+ 
+
+
 }
