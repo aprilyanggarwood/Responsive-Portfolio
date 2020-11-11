@@ -1,8 +1,8 @@
-# [Responsive Portfolio](https://aprilyanggarwood.github.io/Responsive-Portfolio/)
+# Responsive Portfolio
 
 ## Description
 
-My portfolio is created with responsive layout design for rendering the solution well on a variety of devices or screen sizes. Gif demoes are included.
+[My portfolio](https://aprilyanggarwood.github.io/Responsive-Portfolio/) is created with responsive layout design for rendering the solution well on a variety of devices or screen sizes. Gif demoes are included.
 
 ## Table of Contents
 
