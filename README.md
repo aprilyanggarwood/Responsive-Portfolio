@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-- [Summary-and-usage-of-this-application](#Summary-and-usage-of-this-application)
+- [Summary-and-usage-of-this-application](#Summary and usage of this application)
 - [Build](#Bootstrap)
 - [Challeges](#Challeges)
 - [Demo](#Demo)
